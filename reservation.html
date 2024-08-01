@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation d'Hôtel - Bobo-Dioulasso</title>
+    <link rel="stylesheet" href="CSS/Styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bobo-Dioulasso</h1>
+        <img src="logo.jpg" alt="Logo de la ville">
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="patrimoine.html">Patrimoine</a></li>
+                <li><a href="reservation.html">Réservation d'hôtel</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>Decouvrez de merveilleux hotels à Bobo-Dioulasso </h2>
+    <p>Nous vous proposons de  merveilleux cadres de séjour  afin que vous pussiez profiter pleinement de votre séjour dans cette magnifique ville!! </p>
+    <div class="hotel-list">
+        <div class="hotel">
+            <img src="hotel1.jpg" alt="Hôtel 1">
+            <div class="hotel-info">
+                <h3>Iba Hôtel</h3>
+                <p class="stars">★★★★★</p>
+            </div>
+        </div>
+        <div class="hotel">
+            <img src="hotel2.jpg" alt="Hôtel 2">
+            <div class="hotel-info">
+                <h3>Hôtel Sissima</h3>
+                <p class="stars">★★★★☆</p>
+            </div>
+        </div>
+        <div class="hotel">
+            <img src="hotel3.jpg" alt="Hôtel 3">
+            <div class="hotel-info">
+                <h3>Hôtel Dioulassobâ</h3>
+                <p class="stars">★★★☆☆</p>
+            </div>
+        </div>
+        <div class="hotel">
+            <img src="hotel4.jpg" alt="Hôtel 4">
+            <div class="hotel-info">
+                <h3>Hôtel Villa Rose</h3>
+                <p class="stars">★★★★☆</p>
+                
+            </div>
+        </div>
+        <div class="hotel">
+            <img src="hotel5.jpg" alt="Hôtel 5">
+            <div class="hotel-info">
+                <h3> Pacific Hôtel</h3>
+                <p class="stars">★★★☆☆</p>
+            </div>
+        </div>
+
+        <div class="hotel">
+            <img src="hotel6.jpg" alt="Hôtel 6">
+            <div class="hotel-info">
+                <h3> Ran Hotel</h3>
+                <p class="stars">★★★☆☆</p>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+    <main>
+        <section>
+            <h2><strong>Réservez votre Hôtel</strong></h2>
+            <form>
+                <label for="hotel">Sélectionnez l'Hôtel :</label>
+                <select id="hotel" name="hotel" required>
+                    <option value="" disabled selected>Choisissez un hôtel</option>
+                    <option value="hotel1">Iba Hôtel - <p class="stars">★★★★★</p> </option>
+                    <option value="hotel2">Hôtel Sissima - <p class="stars">★★★★☆</p> </option>
+                    <option value="hotel3">Hôtel  Dioulassobâ - <p class="stars">★★★☆☆</p> </option>
+                    <option value="hotel4">Hôtel Villa Rose  - <p class="stars"><p>★★★★☆</option>
+                    <option value="hotel5">Hôtel Wifama - <p class="stars">★★★☆☆</p> </option>
+                    
+                </select>
+                
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="checkin">Date d'arrivée :</label>
+                <input type="date" id="checkin" name="checkin" required>
+                
+                <label for="checkout">Date de départ :</label>
+                <input type="date" id="checkout" name="checkout" required>
+                
+                <label for="rooms">Nombre de chambres :</label>
+                <input type="number" id="rooms" name="rooms" required>
+                
+                <label for="occupants">Nombre d'occupants :</label>
+                <input type="number" id="occupants" name="occupants" required>
+
+                <label for="payment">Moyen de paiement :</label>
+                <select id="payment" name="payment" required>
+                    <option value="" disabled selected>Choisissez un moyen de paiement</option>
+                    <option value="credit_card">Carte de crédit</option>
+                    <option value="moov_money">Moov money</option>
+                    <option value="orange_money">Orange money</option>
+                    <option value="paypal">PayPal</option>
+                    <option value="bank_transfer">Carte bancaire </option>
+                </select>
+                
+                <input type="submit" value="Réserver">
+            </form>
+            </section>
+            </main>
+            <footer>
+                <p>&copy; 2024 Bobo-Dioulasso</p>
+                <p>TOURE KADIATOU- KOALGA ABDOUL WAHAB- SANOU DODA FARIDA- MILLOGO GAEL</p>
+
+            </footer>
+        </body>
+</html>
