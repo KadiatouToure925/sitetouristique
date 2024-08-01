@@ -1,0 +1,253 @@
+/* Style général pour le corps de la page */
+body {
+     font-family: 'Roboto', sans-serif;
+   background: #dedfdbd5;
+    margin: 0;
+    padding: 0;
+    /* background-image: url('fond.jpg');
+     background-size: cover;
+     background-position: center;*/
+}
+
+a:hover{
+    color:#333;
+}
+    
+
+
+p{
+    font-weight: bolder;
+    
+}
+
+/* En-tête */
+header {
+    background: #084de3;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section principale */
+main {
+    padding: 20px;
+}
+
+/* Pied de page */
+footer {
+    background:  #084de3;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    height: 80%;
+    bottom: 0;
+}
+
+/* Style pour la page d'accueil */
+.home-description {
+    margin: 20px 0;
+}
+
+/* Style pour la page de réservation d'hôtel */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto 40px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form select,
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="number"] {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Style pour la présentation des hôtels */
+.hotel-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.hotel {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hotel img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.hotel-info {
+    padding: 10px;
+}
+
+.hotel h3 {
+    margin: 10px 0;
+}
+
+.hotel p {
+    margin: 5px 0;
+}
+
+.stars {
+    color: gold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+option .stars {
+    color: gold;
+}
+
+/* Style pour la page patrimoine */
+
+/* Liste du patrimoine */
+.heritage-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.heritage-list a {
+    margin: 10px;
+    display: block;
+}
+
+/* Images dans la liste du patrimoine */
+.heritage-list img {
+    width: 200px; /* Largeur fixe pour uniformiser la taille des images */
+    height: 200px; /* Hauteur fixe pour uniformiser la taille des images */
+    border-radius: 8px;
+    object-fit: cover; /* Ajuste l'image pour couvrir le conteneur sans déformation */
+    transition: transform 0.3s ease;
+}
+
+/* Effet de survol sur les images dans la liste du patrimoine */
+.heritage-list img:hover {
+    transform: scale(1.05); /* Légère augmentation de la taille au survol */
+}
+
+/* Galerie d'images */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Élément de la galerie */
+.gallery-item {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Image dans l'élément de la galerie */
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Effet de survol sur les images */
+.gallery-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Description sous la galerie */
+.description {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+}
+.admin-gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .admin {
+    text-align: center;
+  }
+  
+  .admin img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .admin p {
+    margin-top: 5px;
+    font-size: 0.9em;
+  }
+  h1, h2, h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:rgb(255, 102, 0) ;
+  }
+ 
